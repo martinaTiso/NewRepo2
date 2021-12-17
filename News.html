@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <link href="FileCinema.css" rel="stylesheet" />
+    <script src="JavaScript.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <img id="logo" src="Immagini/Logo.jfif" width="170" height="150" />
+        <img src="Immagini/salaImmagine.jpg" style="float:right;width:300px;height:250px;display:block;">
+        <h1 id="titolo"> Movies Cinema</h1>
+        <br /><br />
+
+        <div class="navbar">
+            <a class="menu" href="Home.html">Home</a> |
+            <a class="menu" href="SchedaTecnica.html">Schedatecnica</a> |
+            <a class="menu" href="News.html">News</a>
+
+        </div>
+        <br /><br />
+    </header>
+    <div id="myForm">
+        <form onsubmit="save();">
+            <h2>Registrazione</h2>
+
+            <label for="email"><b>Email</b></label>
+            <input id="emailInput" type="text" placeholder="nome@gmail.com" required>
+
+            <button type="submit" onclick="registrazione()">subscribe</button>
+            <!--"class="btn"-->
+            <button type="submit" onclick="cancella()">unsubscribe</button>
+        </form>
+    </div>
+    <br /><br />
+
+          <footer>
+              &copy;Martina Tiso
+
+          </footer>
+  
+    <a  class="button" href="Home.html">Home</a>
+</body>
+</html>

@@ -1,0 +1,24 @@
+﻿esercizio 1
+
+1.c
+1.a
+
+esericizio 2
+
+color
+
+esercizio3
+#welcome{
+background:yellow;
+}
+i.color{
+background:yellow;
+}
+
+esericizio 5
+
+<a target="_blank" href="https://www.avanade.com/it-it">Avanade</a>
+
+
+esericizio 6
+h6
